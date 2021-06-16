@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Begin Header Style */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +30,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -41,17 +43,22 @@ body {
     margin-left: 25px;
 }
 
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* End header style */
+
 p {
     font-size: 16px;
 }
 
+/* Begin section styling */
+
 .hero {
-    height: 800px;
+    height: 650px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -70,11 +77,37 @@ p {
     margin-left: 25px;
 }
 
+/* End section styling */
+
+/* begin Content styling */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* End content styling */
+
+/* Begin benefit styling */
 
 .benefits {
     margin-right: 20px;
@@ -83,7 +116,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
@@ -120,23 +153,9 @@ p {
     max-width: 150px;
 }
 
-.search-engine, .online-reputation, .social-media {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* End benefit styling */
 
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* beg footer style */
 
 .footer {
     padding: 30px;
@@ -148,3 +167,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* end footer style */
